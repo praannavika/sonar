@@ -1,0 +1,49 @@
+.parent-container {
+  .landing-top-bar {
+    background-color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    .div-link:hover {
+      cursor: pointer;
+      text-decoration: underline;
+      color: #1680eb;
+    }
+    .div-link.active {
+      color: #1680eb;
+    }
+  }
+  .landing-main-content {
+    min-height: 90vh;
+    color: #3c4b64;
+    h1 {
+      font-size: 80px;
+    }
+    .login-form {
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+      background-color: #fff;
+      box-shadow: 0px 4px 14px 0 rgba(0, 0, 0, 0.25);
+      .form-header {
+        padding: 10px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+      }
+      .form-group {
+        padding: 10px;
+      }  
+    }
+    .registration-form{
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+      background-color: #fff;
+      box-shadow: 0px 4px 14px 0 rgba(0, 0, 0, 0.25);
+      .form-header {
+        padding: 10px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+      }
+      .form-group {
+        padding: 10px;
+      }
+    }
+  }
+}

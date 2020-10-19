@@ -1,0 +1,36 @@
+.metismenu {
+  position: fixed;
+  top:0;
+  bottom: 0;
+  background-color: #3c4b64;
+  width: 202px;
+  max-width: 202px;
+  min-width: 202px;
+  .metismenu-container {
+    padding: 0px;
+    .metismenu-item {
+      .metismenu-link {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .metismenu-link:hover {
+        background-color: #321fdb;
+        text-decoration: none;
+      }
+      .metismenu-link.active,
+      .metismenu-link.has-active-child {
+        background-color: #303b4e;
+      }
+      .metismenu-link.has-active-child {
+        color: white;
+      }
+    }
+  }
+  .metismenu-container.visible>.metismenu-item>.metismenu-link{
+    height: auto;
+  }
+}
+
+.sidebar-offset{
+  margin-left: 202px
+}
