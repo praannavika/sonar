@@ -11,7 +11,7 @@ pipeline {
       nodejs('node-14.14') 
       {bat 'npm install'
         bat 'set CI=true&&yarn test'
-        bat 'yarn sonar'}
+        }
       }
     }  
     
