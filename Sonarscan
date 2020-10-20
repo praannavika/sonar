@@ -7,7 +7,7 @@ pipeline {
          
     stage('Sonar') {
       steps {
-           bat 'npm install'
+           bat 'npm install --verbose'
         bat 'set CI=true&&npm test'
       nodejs('node-14.14') 
       {
