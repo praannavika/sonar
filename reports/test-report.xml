@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="C:\Users\kannagap\Desktop\git\sonar\src\App.test.js">
+        <testCase name="basic test" duration="3"/>
+    </file>
+    <file path="C:\Users\kannagap\Desktop\git\sonar\src\__tests__\HomeTopbar.test.js">
+        <testCase name="home top bar test should display welcome message" duration="15"/>
+        <testCase name="home top bar test dropdown should show Settings and Logout options" duration="6"/>
+    </file>
+</testExecutions>

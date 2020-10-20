@@ -1,0 +1,6 @@
+projectKey=credit-card-ui
+serverUrl=http://localhost:9000
+serverVersion=8.4.1.35646
+dashboardUrl=http://localhost:9000/dashboard?id=credit-card-ui
+ceTaskId=AXVFjYG9a0rQytzCTnXo
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXVFjYG9a0rQytzCTnXo
