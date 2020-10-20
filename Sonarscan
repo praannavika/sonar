@@ -8,7 +8,6 @@ pipeline {
     stage('Sonar') {
       steps {
            bat 'npm install'
-           bat 'npm cache clean'
         bat 'set CI=true&&npm test'
       nodejs('node-14.14') 
       {
