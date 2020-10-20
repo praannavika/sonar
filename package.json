@@ -29,7 +29,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": " react-scripts --env=jsdom --coverage --testResultsProcessor jest-sonar-reporter --watchAll",
+    "test": " react-scripts test --env=jsdom --coverage --testResultsProcessor jest-sonar-reporter --watchAll",
     "eject": "react-scripts eject",
     "sonar": "node sonar-project.js"
   },
