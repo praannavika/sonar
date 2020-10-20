@@ -10,7 +10,7 @@ pipeline {
           echo 'executing yarn.....'
       nodejs('node-14.14') 
       {bat 'npm install'
-        bat 'yarn test'
+        bat 'set CI=true&&npm test'
         bat 'yarn sonar'}
       }
     }  
